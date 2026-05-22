@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小6でヤングケアラーだった僕が不満度を経験値に換算したらLVカンストした件 - 公式サイト</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--slick-->
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+    <!-- animate.css4の読み込み(animate.css cdnで検索) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- オリジナルCSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="top" class="contact-page">
+    <div>
+
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">ヤンケア最強</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="story.html">STORY</a></li>
+                        <li class="nav-item"><a class="nav-link" href="character.html">CHARACTER</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.html">NEWS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="qanda.html">Q&A</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- Story Section -->
+        <section class="story-section" id="story">
+            <!-- 魔法陣背景1 -->
+            <div class="mahoujin1">
+                <img src="img/mahoujin.png" alt="">
+            </div>
+            <!-- 魔法陣背景2 -->
+            <div class="mahoujin2">
+                <img src="img/mahoujin.png" alt="">
+            </div>
+            <div class="container">
+                <h2 class="section-title">CONTACT</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="form-content">
+                            <form action="">
+                                <table>
+                                    <tr>
+                                        <th>
+                                            <label for="name">お名前</label>
+                                        </th>
+                                        <td><input type="text" class="form-control" id="name"></td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="kana">フリガナ</label></th>
+                                        <td><input type="text" class="form-control" id="kana"></td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="mail">メールアドレス</label></th>
+                                        <td><input type="email" name="" id="mail" class="form-control"></td>
+                                    </tr>
+                                    <tr>
+                                        <th>性別</th>
+                                        <td> <!-- <label>タグでボタン以外を押しても反応するようにする -->
+                                            <label class="gender"><input type="radio" name="gender" id="">男性</label>
+                                            <label class="gender"><input type="radio" name="gender" id="">女性</label>
+                                            <label class="gender"><input type="radio" name="gender" id="">その他</label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>お問い合わせ種別</th>
+                                        <td>
+                                            <select name="" id="" class="form-control">
+                                                <option value="">選択してください</option>
+                                                <option value="">お問い合わせ</option>
+                                                <option value="">作品への感想</option>
+                                                <option value="">尾木ママへのご相談</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th style="vertical-align: top;"><label for="naiyou">内容</label></th>
+                                        <!-- vertical-align: top; 文字を上端へ -->
+                                        <td>
+                                            <textarea name="" id="naiyou" rows="10" class="form-control"></textarea>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <p class="text-center mt-3">
+                                    <button type="reset" class="btn btn-secondary btn-lg rounded-pill me-3">クリア</button>
+                                    <!-- me margin end 右側に間隔を設定 -->
+                                    <button type="submit" class="btn btn-secondary btn-lg rounded-pill">送信</button>
+                                </p>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="sns-links mb-4">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p class="small text-muted mb-0">© 「ヤンケア最強」製作委員会 / 不満度経験値協会</p>
+            </div>
+        </footer>
+        <!-- topへ戻るボタン -->
+        <div class="backtopbt"><a href="#top"><i class="fa-solid fa-sort-up fa-2x"></i></a></div>
+    </div>
+
+    <!-- Bootstrap 5 & jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

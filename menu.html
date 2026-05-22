@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU - Cafe SONES</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700;900&family=Oswald:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--slick-->
+    <link rel="stylesheet" href="js/slick/slick.css">
+    <link rel="stylesheet" href="js/slick/slick-theme.css">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Vue2の読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <!-- animate.css4の読み込み(animate.css cdnで検索) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- オリジナルCSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body id="top" class="character-page">
+    <div id="app">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Cafe SONES</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">ABOUT</a></li>
+                        <li class="nav-item"><a class="nav-link" href="menu.html">MENU</a></li>
+                        <li class="nav-item"><a class="nav-link" href="info.html">INFO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="qanda.html">Q&A</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+        <!-- Character Section -->
+        <section class="character-section" id="character">
+            <!-- 魔法陣背景1 -->
+            <div class="mahoujin1">
+                <img src="img/cafeimage.png" alt="">
+            </div>
+            <!-- 魔法陣背景2 -->
+            <div class="mahoujin2">
+                <img src="img/cafeimage.png" alt="">
+            </div>
+            <div class="container">
+                <h2 class="section-title">MENU</h2>
+                <div class="row">
+                    <!-- Character 1 -->
+                    <div class="col-md-4 yusha js-target">
+                        <div class="char-card">
+                            <div class="char-img-wrapper">
+                                <img src="img/menu1.png" alt="パンケーキ" class="img-fluid">
+                            </div>
+                            <div class="char-info">
+                                <div class="char-name">パンケーキ</div>
+                                <div class="char-cv">price: 800円</div>
+                                <p class="small mt-2">異世界帰りのオーナーセワトがメデゥーサの髪型から着想を得たオリジナルメニュー</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Character 2 -->
+                    <div class="col-md-4 elf js-target">
+                        <div class="char-card">
+                            <div class="char-img-wrapper">
+                                <img src="img/menu2.png" alt="マンドラゴラのコーヒー" class="img-fluid">
+                            </div>
+                            <div class="char-info">
+                                <div class="char-name">マンドラゴラのコーヒー</div>
+                                <div class="char-cv">price: 2000円</div>
+                                <p class="small mt-2">オーナーの奥様が異世界から持ってきた貴重なマンドラゴラから抽出したブレンドコーヒー。収穫時に悲鳴が聞こえる。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Character 3 -->
+                    <div class="col-md-4 trump js-target">
+                        <div class="char-card">
+                            <div class="char-img-wrapper">
+                                <img src="img/boss.png" alt="魔物の肉の蟹のようなパスタ" class="img-fluid">
+                            </div>
+                            <div class="char-info">
+                                <div class="char-name">魔物の肉の蟹のようなパスタ</div>
+                                <div class="char-cv">price: 3000円</div>
+                                <p class="small mt-2">オーナーのアイテムボックスにたまたま残っていた魔物の蟹のような肉で作ったパスタ</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Character 4 -->
+                    <div class="col-md-4 yusha js-target">
+                        <div class="char-card">
+                            <div class="char-img-wrapper">
+                                <img src="img/seiya_chara.png" alt="せいや" class="img-fluid">
+                            </div>
+                            <div class="char-info">
+                                <div class="char-name">せいや</div>
+                                <div class="char-cv">CV: せいや</div>
+                                <p class="small mt-2">
+                                    大阪キー局のバラエティ番組で<br>セワトに出会ったお笑い芸人。<br>なぜか異世界からせいやにだけは電話がつながるようになっている。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Character 5 -->
+                    <div class="col-md-4 elf js-target">
+                        <div class="char-card">
+                            <div class="char-img-wrapper">
+                                <img src="img/ogimama.png" alt="大賢者オギ・マーマ" class="img-fluid">
+                            </div>
+                            <div class="char-info">
+                                <div class="char-name">大賢者オギ・マーマ</div>
+                                <div class="char-cv">CV: 尾木ママ</div>
+                                <p class="small mt-2">
+                                    転生した世界でたった1人の大賢者である。<br>いじめと不勉強に関して異常に厳しい。ただし子供は好き。<br>某教育コメンテーターに似ている。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Character 6 -->
+                    <div class="col-md-4 trump js-target">
+                        <div class="char-card">
+                            <div class="char-img-wrapper">
+                                <img src="img/monster.png" alt="モンスターペアレンツ" class="img-fluid">
+                            </div>
+                            <div class="char-info">
+                                <div class="char-name">モンスターペアレンツ</div>
+                                <div class="char-cv">CV: 野沢雅子</div>
+                                <p class="small mt-2">
+                                    セワトが晩御飯を作り終える前に過労死したため<br>執念で現世より転生してきた。調理の途中で転生したので調理家電とともにやってきた。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="sns-links mb-4">
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <p class="small text-muted mb-0">&copy; Cafe SONES</p>
+            </div>
+        </footer>
+        <!-- topへ戻るボタン -->
+        <div class="backtopbt"><a href="#top"><i class="fa-solid fa-sort-up fa-2x"></i></a></div>
+    </div>
+
+    <!-- Bootstrap 5 & jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
